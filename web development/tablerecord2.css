@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(242, 255, 213); color: rgb(120, 0, 96);
+}
+table, td, th{
+    border: 2px solid;
+}
+td, th{
+    width: 20%
+}

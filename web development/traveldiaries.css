@@ -1,0 +1,73 @@
+
+body{
+    text-align: center;
+}
+header{
+    text-align: left;
+    box-shadow: 2px 5px 20px; color: rgb(149, 93, 71);
+    padding: 10px;
+    margin: 10px;
+}
+.media{
+    width: 22%;
+    float: left;
+    height: 200px;
+    margin: 5px;
+    align-content: center;
+    border: 1px solid rgb(255, 81, 214);
+    background-image:radial-gradient(orange,pink);
+    box-shadow:rgb(243, 76, 109) 2px 5px;
+    border-radius:20%;
+    padding:12px;
+    margin-bottom: 60px;
+}
+.media img{
+    width: 95%; 
+    border-radius: 20%;
+}
+#dubai{
+    height: 175px;
+}
+.songs{
+    float: left;
+    height: 200px;
+    margin: 90px;
+    border: 2px dashed orange; height: 7.5%; border-radius: 30px;
+}
+.videos{
+    width: 22%;
+    float: left;
+    height: 200px;
+    margin: 20px;
+    align-content: center;
+    border: 1px solid rgb(255, 81, 214);
+    background-image:radial-gradient(orange,pink);
+    box-shadow:rgb(243, 76, 109) 2px 5px;
+    border-radius:20%;
+    padding:12px;
+    margin-bottom: 60px;
+}
+.articles{
+    margin-top: 80px;
+}
+#logo{
+    width: 4%;
+}
+a{
+    text-decoration: none; color: black;
+    margin: 10px;
+}
+a:hover{
+    color: rgb(255, 81, 214); text-shadow: 2px 2px 10px rgb(255, 51, 157);
+}
+.inlineblock{
+    display: inline-block;
+}
+.rhs{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    float: right;
+    margin-top: 15px;
+}
+#h5{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

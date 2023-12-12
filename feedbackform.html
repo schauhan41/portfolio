@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feedback Form</title>
+</head>
+<body style="background-color: rgb(245, 221, 255);">
+    <h2>Feedback</h2>
+    <br><br>
+    <form autocomplete="on" action="mailto:joestone@outlook.com" method="post" enctype="text/plain" style="border: 2px dashed plum; padding: 10px;">
+        <label>First Name:</label>
+        <input id="firstname" name="firstname" type="text">
+        <br><br>
+        <label>Last Name:</label>
+        <input id="lastname" name="lastname" type="text">
+        <br><br><br>
+        <label>Gender:</label>
+        <br><br>
+        <input name="gender" type="radio" value="male">Male
+        <br><br>
+        <input name="gender" type="radio" value="female">Female
+        <br><br><br>
+        <label>Remarks:</label>
+        <br><br>
+        <textarea name="remarks" id="remarks" cols="32" rows="5"></textarea>
+        <br><br><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
